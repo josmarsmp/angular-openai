@@ -8,3 +8,4 @@ export * from './typingLoader/typingLoader.component';
 export * from './text-boxes/textMessageBoxFile/textMessageBoxFile.component';
 export * from './text-boxes/textMessageBoxSelect/textMessageBoxSelect.component';
 
+export * from './chat-bubbles/gptMessageOrthography/gptMessageOrthography.component';
