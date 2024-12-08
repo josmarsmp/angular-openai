@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
 import { ChatMessageComponent, MyMessageComponent, TextMessageBoxComponent, TypingLoaderComponent } from '@components/index';
-import { Message } from '@interfaces/message.interface';
+import { Message } from '@interfaces/index';
 import { OpenAIService } from 'app/presentation/services/openai.service';
 
 @Component({

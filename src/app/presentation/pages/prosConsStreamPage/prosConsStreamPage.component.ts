@@ -30,7 +30,6 @@ export default class ProsConsStreamPageComponent {
 
     this.abortSignal.abort();
     this.abortSignal = new AbortController();
-
     this.messages.update(previous => [
       ...previous,
       {
